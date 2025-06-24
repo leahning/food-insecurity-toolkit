@@ -28,9 +28,8 @@ Optimization tool using clustering algorithms and census data to recommend optim
 **Upcoming:** Policy Simulator, Pantry Planner
 
 ## Development Timeline
-- **6/23/25: Initial setup complete - Flask backend + React frontend
-- **6/**: [Next milestone here]
-- **6/**: [Next milestone here]
+- **6/23/25**: Initial setup complete - Flask backend + React frontend
+
 ## Technical Approach
 
 Building on insights from my national data challenge project, this toolkit addresses food insecurity through:
