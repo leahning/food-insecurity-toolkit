@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# Food Insecurity Toolkit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive suite of full-stack tools to analyze and address food insecurity in the U.S., combining geospatial analysis, policy simulation, and optimization algorithms.
 
-## Available Scripts
+## Motivation
 
-In the project directory, you can run:
+This project stems from my award-winning research on food insecurity, where my team won 1st place nationally in the American Statistical Association's Fall Data Challenge. Through analyzing USDA datasets and comparing food access patterns across states, we discovered critical gaps in food accessibility - particularly the stark difference between access to parks versus grocery stores.
 
-### `npm start`
+Our research revealed that nationwide, significantly fewer people live within walking distance of grocery stores compared to parks, highlighting transportation as a key barrier to food security. This finding, combined with my community work with homeless populations, drives my commitment to building data-driven solutions for food access challenges.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Plan for Project Components
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 1. Food Access Navigator
+**Stack:** React + Flask + Leaflet.js + Python  
+A mapping tool that shows users nearby SNAP retailers and food pantries using real walk/bike/transit times, with food insecurity risk scoring based on location and mobility data.
 
-### `npm test`
+### 2. Policy Simulator  
+**Stack:** Streamlit + Python  
+Dashboard simulating the impact of SNAP policy changes on projected food access in different communities.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Public Park Pantry Planner
+**Stack:** Python + Geospatial Libraries  
+Optimization tool using clustering algorithms and census data to recommend optimal food pantry locations in underserved areas.
 
-### `npm run build`
+## Current Status
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**In Progress:** Food Access Navigator development  
+**Upcoming:** Policy Simulator, Pantry Planner
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Development Timeline
+- **6/23/25: Initial setup complete - Flask backend + React frontend
+- **6/**: [Next milestone here]
+- **6/**: [Next milestone here]
+## Technical Approach
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Building on insights from my national data challenge project, this toolkit addresses food insecurity through:
+- **Real-time accessibility analysis** using actual transportation data
+- **Predictive modeling** for food insecurity risk assessment  
+- **Geospatial optimization** for strategic resource placement
+- **Policy impact simulation** for evidence-based decision making
