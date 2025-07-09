@@ -28,13 +28,13 @@ Optimization tool using clustering algorithms and census data to recommend optim
 **Upcoming:** Policy Simulator, Pantry Planner
 
 ## Development Timeline
-- **6/23/25: Initial setup complete - Flask backend + React frontend
-- **7/9/25: Added Leaflet.js mapping with location search using Nomanatim geocoding API
+- **6/23/25**: Initial setup complete - Flask backend + React frontend
+- **7/9/25**: Added Leaflet.js mapping with location search using Nomanatim geocoding API
 - **Upcoming**: USDA SNAP retailer data integration
 
-## ✨ Current Features
+## Current Features
 
-### 🧭 Food Access Navigator
+### Food Access Navigator
 - **Interactive mapping** with Leaflet.js and OpenStreetMap
 - **Location search** using Nominatim geocoding API
 - **Responsive design** with real-time map updates
