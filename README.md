@@ -29,8 +29,19 @@ Optimization tool using clustering algorithms and census data to recommend optim
 
 ## Development Timeline
 - **6/23/25: Initial setup complete - Flask backend + React frontend
-- **6/**: [Next milestone here]
-- **6/**: [Next milestone here]
+- **7/9/25: Added Leaflet.js mapping with location search using Nomanatim geocoding API
+- **Upcoming**: USDA SNAP retailer data integration
+
+## ✨ Current Features
+
+### 🧭 Food Access Navigator
+- **Interactive mapping** with Leaflet.js and OpenStreetMap
+- **Location search** using Nominatim geocoding API
+- **Responsive design** with real-time map updates
+- **Tech stack**: React + TypeScript + Leaflet.js + Flask
+
+*Next: Adding SNAP retailer locations and food pantry data*
+
 ## Technical Approach
 
 Building on insights from my national data challenge project, this toolkit addresses food insecurity through:
