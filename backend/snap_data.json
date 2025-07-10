@@ -1,0 +1,20 @@
+[
+    {
+        "name": "La Raza Market",
+        "address": "601 S 1st St, San Jose, CA 95113",
+        "lat": 37.3275,
+        "lon": -121.8838
+    },
+    {
+        "name": "Grocery Outlet",
+        "address": "272 E Santa Clara St, San Jose, CA 95113",
+        "lat": 37.3380,
+        "lon": -121.8856
+    },
+    {
+        "name": "Mi Pueblo Food Center",
+        "address": "1775 Story Rd, San Jose, CA 95122",
+        "lat": 37.3307,
+        "lon": -121.8375
+    }
+]
