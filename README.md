@@ -30,6 +30,7 @@ Optimization tool using clustering algorithms and census data to recommend optim
 ## Development Timeline
 - **6/23/25**: Initial setup complete - Flask backend + React frontend
 - **7/9/25**: Added Leaflet.js mapping with location search using Nomanatim geocoding API
+- **7/10/25**: Added SNAP retailer markers to Leaflet map, pulled data from Flask backend, rendered locations as red markers
 - **Upcoming**: USDA SNAP retailer data integration
 
 ## Current Features
@@ -38,9 +39,12 @@ Optimization tool using clustering algorithms and census data to recommend optim
 - **Interactive mapping** with Leaflet.js and OpenStreetMap
 - **Location search** using Nominatim geocoding API
 - **Responsive design** with real-time map updates
+- **Dynamic SNAP retailer markers** pulled from Flask backend API (/api/snap)
+- **Custom red icons** for SNAP markers to distinguish from user-selected location
+- **Popup displays** for SNAP sites with name and address
 - **Tech stack**: React + TypeScript + Leaflet.js + Flask
 
-*Next: Adding SNAP retailer locations and food pantry data*
+*Next: Add real SNAP and food pantry data, ZIP-level risk scoring, filtering by distance or type*
 
 ## Technical Approach
 
